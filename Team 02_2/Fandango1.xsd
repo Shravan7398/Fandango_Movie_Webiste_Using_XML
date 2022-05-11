@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="schema1.xsd" namespace="http://www.w3.org/1999/xhtml" />
+  <xs:element name="theaters">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="show" type="xs:string" />
+        <xs:element maxOccurs="unbounded" name="theater">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" type="xs:string" />
+              <xs:element name="address" type="xs:string" />
+              <xs:element name="zipcode" type="xs:unsignedShort" />
+              <xs:element name="message" type="xs:string" />
+              <xs:element maxOccurs="unbounded" name="movie">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element xmlns:q1="http://www.w3.org/1999/xhtml" ref="q1:photo" />
+                    <xs:element name="title" type="xs:string" />
+                    <xs:element name="rating" type="xs:string" />
+                    <xs:element name="duration" type="xs:string" />
+                    <xs:element name="cast" type="xs:string" />
+                    <xs:element name="release-date" type="xs:string" />
+                    <xs:element maxOccurs="unbounded" name="timings" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="number" type="xs:unsignedByte" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE theaters SYSTEM "Fandango.dtd">
+<?xml-stylesheet type="text/css" href="Fandango.css"?>
+<theaters>
+	<show>FANDANGO</show>
+	<theater number="1">
+		<Name>Regal Henrietta</Name>
+		<address>525 Marketplace Drive, Rochester, NY </address>
+		<zipcode>14623</zipcode>
+		<message>Text to FNDGO (36346) from your wireless device to get this theater's showtimes.</message>
+		<movie>
+			<photo xmlns = "http://www.w3.org/1999/xhtml">
+        	<img src = "./Candyman.jpg" width = "300" height = "200"/>
+        	</photo>
+			<title>Candyman (2021)</title>
+			<rating>(R)</rating>
+			<genre>Horror,Suspense/Thriller</genre>
+			<duration> 1hr 31min</duration>
+			<cast>Nia DaCosta (Director), Yahya Abdul-Mateen II, Teyonah Parris, Nathan Stewart-Jarrett </cast>
+			<release-date> Friday, Aug 27, 2021</release-date>
+			<timings> 12:00PM</timings>
+			<timings> 1:30PM</timings>
+			<timings> 4:20AM </timings>
+			<timings> 7:50PM</timings>
+			<timings></timings>
+
+		</movie>
+		<movie>
+			<photo xmlns = "http://www.w3.org/1999/xhtml">
+        	<img src = "./Spacejam.jpg" width = "300" height = "200"/>
+        	</photo>
+			<title>Space Jam : a New Legacy (2021)</title>
+			<rating>(PG)</rating>
+			<genre>Action/Adventure , Comedy </genre>
+			<duration>UNAVAILABLE</duration>
+			<cast> Malcolm D. Lee(Director), LeBron JamesDon, Don Cheadle,  Cedric Joe</cast>
+			<release-date> Friday, Jul 16, 2021 </release-date>
+			<timings> 12:30PM </timings>
+			<timings> 3:35PM </timings>
+			<timings></timings>
+			<timings></timings>
+			<timings></timings>
+		</movie>
+		<movie>
+			<photo xmlns = "http://www.w3.org/1999/xhtml">
+        	<img src = "./Old.jpg" width = "300" height = "200"/>
+        	</photo>
+			<title>Old (2021) </title>
+			<rating>(PG-13)</rating>
+			<genre>Suspense/Thriller</genre>
+			<duration>UNAVAILABLE</duration>
+			<cast> M. Night Shyamalan (Director), Gael García Bernal , Vicky Krieps Rufus Sewell</cast>
+			<release-date>Friday, Jul 23, 2021</release-date>
+			<timings>12:40pm </timings>
+			<timings>3:45pm </timings>
+			<timings>6:55PM </timings>
+			<timings></timings>
+			<timings></timings>
+		</movie>
+	</theater>
+	<theater number="2">
+		<Name>Regal Greece Ridge</Name>
+		<address>176 Greece Ridge Center Dr, Rochester, NY </address>
+		<zipcode>14626</zipcode>
+		<message>Text to FNDGO (36346) from your wireless device to get this theater's showtimes.</message>
+		<movie>
+			<photo xmlns = "http://www.w3.org/1999/xhtml">
+        	<img src = "./Shang-chi.jpg" width = "300" height = "200"/>
+        	</photo>
+			<title>Shangchi and the Legend of the Ten Rings (2021) </title>
+			<rating>(PG-13)</rating>
+			<genre>Action/Adventure </genre>
+			<duration>2hr 12min</duration>
+			<cast>Destin Daniel Cretton(Director), Simu Liu, Tony Chiu-Wai Leung </cast>
+			<release-date> Friday, Sep 3, 2021 </release-date>
+			<timings>1:20pm</timings>
+			<timings>4:40PM</timings>
+			<timings></timings>
+			<timings></timings>
+			<timings></timings>
+		</movie>
+		<movie>
+			<photo xmlns = "http://www.w3.org/1999/xhtml">
+        	<img src = "./Respect.jpg" width = "300" height = "200"/>
+        	</photo>
+			<title>Respect (2021)</title>
+			<rating>(PG-13)</rating>
+			<genre> Drama, Music/Performing Arts</genre>
+			<duration>2hr 25min</duration>
+			<cast> Liesl Tommy (Director), Jennifer Hudson, Franklin Forest Whitaker, Marlon Wayans </cast>
+			<release-date> Friday, Aug 13, 2021 </release-date>
+			<timings>11:30am </timings>
+			<timings>3:00PM</timings>
+			<timings>6:45PM </timings>
+			<timings></timings>
+			<timings></timings>
+		</movie>
+		<movie>
+			<photo xmlns = "http://www.w3.org/1999/xhtml">
+        	<img src = "./Freeguy.jpg" width = "300" height = "200"/>
+        	</photo>
+			<title>Free Guy (2021)</title>
+			<rating>(PG-13)</rating>
+			<genre>Action/Adventure, Comedy, Sci-fi/Fantasy</genre>
+			<duration>1hr 55min</duration>
+			<cast> Shawn Levy (Director), Ryan Reynolds, Jodie Comer,  Joe Keery </cast>
+			<release-date>Friday, Aug 13, 2021</release-date>
+			<timings>11:50am</timings>
+			<timings>12:50pm</timings>
+			<timings>4:05pm</timings>
+			<timings>6:15PM</timings>
+			<timings>7:15pm</timings>
+		</movie>
+	</theater>
+</theaters>

@@ -1,0 +1,23 @@
+<!ELEMENT theaters (show, theater+)>
+<!ELEMENT show (#PCDATA)>
+<!ELEMENT theater (Name, address, zipcode, message,movie+)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT zipcode (#PCDATA)>
+<!ELEMENT message (#PCDATA)>
+<!ELEMENT movie (photo,title, rating, genre, duration, cast, release-date, timings+)>
+<!ELEMENT photo (img)>
+<!ELEMENT img (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT duration (#PCDATA)>
+<!ELEMENT cast (#PCDATA)>
+<!ELEMENT release-date (#PCDATA)>
+<!ELEMENT timings (#PCDATA)>
+
+<!ATTLIST theater number CDATA #REQUIRED>
+<!ATTLIST photo xmlns CDATA #REQUIRED>
+<!ATTLIST img height CDATA #REQUIRED>
+<!ATTLIST img width CDATA #REQUIRED>
+<!ATTLIST img src CDATA #REQUIRED>
